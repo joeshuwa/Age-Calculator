@@ -33,9 +33,9 @@ button.addEventListener('click', (event)=>{
 
     // CONDITIONS FOR INPUTTING ALPHABETS INSTEAD OF NUMBERS
     if(isNaN(dayValue) || isNaN(monthValue) || isNaN(yearValue)){
-        one.innerHTML='-- days';
-        two.innerHTML='-- months';
-        three.innerHTML='-- years';
+        one.innerHTML=`${ageYear} `;
+        two.innerHTML=`${ageMonth} `;
+        three.innerHTML=`${ageDay} `;
         return; 
     }
 
